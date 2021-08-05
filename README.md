@@ -13,9 +13,19 @@
 - [⇱](https://flutter.dev/docs/get-started/web) Web
 
 ### Windows
-```cmd
-git clone https://github.com/flutter/flutter.git -b stable
-```
++ Install
+  Open cmd / camandLine 
+  ```cmd
+  git clone https://github.com/flutter/flutter.git -b stable
+  ```
++ Update your path
+  If you wish to run Flutter commands in the regular Windows console, take these steps to add Flutter to the PATH environment   variable:
+
+  - From the Start search bar, enter ‘env’ and select Edit environment variables for your account.
+  - Under User variables check if there is an entry called Path:
+    + If the entry exists, append the full path to flutter\bin using ; as a separator from existing values.
+    + If the entry doesn’t exist, create a new user variable named Path with the full path to flutter\bin as its value.
+  You have to close and reopen any existing console windows for these changes to take effect.
 ## Flutter web [ぷ](https://ShivaShirsath.github.io/flutter-web)
 A new Flutter project.
 
