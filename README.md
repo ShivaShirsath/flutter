@@ -117,6 +117,22 @@
 ## Flutter web [ぷ](https://ShivaShirsath.github.io/flutter-web)
 A new Flutter project.
 
+
+### Install
+  ```bash
+  # install git 
+  git clone https://github.com/flutter/flutter.git -b stable
+  ```
+### Update Path
+
+### Create Project
+
+### Check Flutter & Dart
+
+### Check by Doctor
+
+### ‎
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
