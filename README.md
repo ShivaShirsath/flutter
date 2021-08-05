@@ -66,6 +66,27 @@
   ```
   Run `source $HOME/.<rc file>` to refresh the current window, or open a new terminal window to automatically source the file.
   
+### Linux
++ **Install**
+
+  Open Terminal and run following Cammand:
+  ```bash
+  cd /root/
+  git clone https://github.com/flutter/flutter.git -b stable
+  ```
+Update your path
+You can update your PATH variable for the current session at the command line, as shown in Get the Flutter SDK. You’ll probably want to update this variable permanently, so you can run flutter commands in any terminal session.
+
+The steps for modifying this variable permanently for all terminal sessions are machine-specific. Typically you add a line to a file that is executed whenever you open a new window. For example:
+
+Determine the path of your clone of the Flutter SDK. You need this in Step 3.
+Open (or create) the rc file for your shell. For example, Linux uses the Bash shell by default, so edit $HOME/.bashrc. If you are using a different shell, the file path and filename will be different on your machine.
+Add the following line and change [PATH_OF_FLUTTER_GIT_DIRECTORY] to be the path of your clone of the Flutter git repo:
+
+content_copy
+ export PATH="$PATH:[PATH_OF_FLUTTER_GIT_DIRECTORY]/bin"
+Run source $HOME/.<rc file> to refresh the current window, or open a new terminal window to automatically source the file.
+  
 ## Flutter web [ぷ](https://ShivaShirsath.github.io/flutter-web)
 A new Flutter project.
 
