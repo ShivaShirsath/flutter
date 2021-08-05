@@ -87,6 +87,26 @@
   export PATH=$PATH:/root/flutter/bin
   ```
   - Run `source $HOME/.<rc file>` to refresh the current window, or open a new terminal window to automatically source the file.
+
++ **Additional Linux requirements**
+  For Linux desktop development, you need the following in addition to the Flutter SDK:
+
+  - Clang
+  - CMake
+  - GTK development headers
+  - Ninja build
+  - pkg-config
+  
+  Run the following command
+  ```bash
+  sudo apt-get install clang cmake ninja-build pkg-config libgtk-3-dev
+  ```
++ Enable desktop support
+  
+  At the command line, perform the following command to enable desktop support
+  ```bash
+  flutter config --enable-linux-desktop
+  ```
   
 ## Flutter web [ぷ](https://ShivaShirsath.github.io/flutter-web)
 A new Flutter project.
