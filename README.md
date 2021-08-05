@@ -12,6 +12,10 @@
 - [⇱](https://flutter.dev/docs/get-started/install/linux) Chrome OS
 - [⇱](https://flutter.dev/docs/get-started/web) Web
 
+### Windows
+```cmd
+git clone https://github.com/flutter/flutter.git -b stable
+```
 ## Flutter web [ぷ](https://ShivaShirsath.github.io/flutter-web)
 A new Flutter project.
 
