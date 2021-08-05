@@ -20,6 +20,7 @@
   git clone https://github.com/flutter/flutter.git -b stable
   ```
 + **Update your path**
+
   If you wish to run Flutter commands in the regular Windows console, take these steps to add Flutter to the PATH environment   variable:
 
   - From the Start search bar, enter ‘env’ and select *Edit* **Environment Variables** for your account.
@@ -51,6 +52,7 @@
   ```
   
 + **Update your path**
+
   You can update your PATH variable for the current session at the command line, as shown in Get the Flutter SDK. You’ll probably want to update this variable permanently, so you can run flutter commands in any terminal session.
 
   The steps for modifying this variable permanently for all terminal sessions are machine-specific. Typically you add a line to a file that is executed whenever you open a new window. For example:
