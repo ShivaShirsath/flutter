@@ -5,12 +5,12 @@
   Flutter
 </h1>
 
-## [⇱](https://flutter.dev/docs/get-started/install) Install
-- [⇱](https://flutter.dev/docs/get-started/install/windows) Windows
-- [⇱](https://flutter.dev/docs/get-started/install/macos) macOS
-- [⇱](https://flutter.dev/docs/get-started/install/linux) Linux
-- [⇱](https://flutter.dev/docs/get-started/install/linux) Chrome OS
-- [⇱](https://flutter.dev/docs/get-started/web) Web
+## [⇱](https://flutter.dev/docs/get-started/install) Install 
+- [⇱](https://flutter.dev/docs/get-started/install/windows) Windows [⇲](#windows)
+- [⇱](https://flutter.dev/docs/get-started/install/macos) macOS [⇲](#macos)
+- [⇱](https://flutter.dev/docs/get-started/install/linux) Linux [⇲](#linux)
+- [⇱](https://flutter.dev/docs/get-started/install/linux) Chrome OS [⇲](#chromeos)
+- [⇱](https://flutter.dev/docs/get-started/web) Web [⇲](#web)
 
 ### Windows
 + **Install**
