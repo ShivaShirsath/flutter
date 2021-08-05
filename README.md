@@ -49,6 +49,7 @@
   ```shell
   git clone https://github.com/flutter/flutter.git -b stable
   ```
+  
 + **Update your path**
   You can update your PATH variable for the current session at the command line, as shown in Get the Flutter SDK. You’ll probably want to update this variable permanently, so you can run flutter commands in any terminal session.
 
