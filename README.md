@@ -5,6 +5,7 @@
   Flutter
 </h1>
 
+## [Install](https://flutter.dev/docs/get-started/install)
 ## Flutter web [ぷ](https://ShivaShirsath.github.io/flutter-web)
 A new Flutter project.
 
