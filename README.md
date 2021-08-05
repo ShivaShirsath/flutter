@@ -16,6 +16,7 @@
 + Install
   Open cmd / camandLine 
   ```cmd
+  cd C:\src
   git clone https://github.com/flutter/flutter.git -b stable
   ```
 + Update your path
