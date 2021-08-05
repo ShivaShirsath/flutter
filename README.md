@@ -1,5 +1,4 @@
 <h1 align=center>
-  lutt
   <a href=https://flutter.dev>
     ⇱
   </a>
