@@ -6,10 +6,11 @@
 </h1>
 
 ## [⇱](https://flutter.dev/docs/get-started/install) Install
-- Windows
-- macOS
-- Linux
-- Chrome OS
+- [⇱](https://flutter.dev/docs/get-started/install/windows) Windows
+- [⇱](https://flutter.dev/docs/get-started/install/macos) macOS
+- [⇱](https://flutter.dev/docs/get-started/install/linux) Linux
+- [⇱](https://flutter.dev/docs/get-started/install/linux) Chrome OS
+- [⇱](https://flutter.dev/docs/get-started/web) Web
 
 ## Flutter web [ぷ](https://ShivaShirsath.github.io/flutter-web)
 A new Flutter project.
