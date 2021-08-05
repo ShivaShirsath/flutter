@@ -84,7 +84,8 @@
   - Add the following line and change `/root/flutter` to be the path of your clone of the Flutter git repo:
 
   ```bash
-  export PATH="$PATH:/root/flutter/bin"
+  export PATH=$PATH:/root/flutter/bin
+  ```
   - Run `source $HOME/.<rc file>` to refresh the current window, or open a new terminal window to automatically source the file.
   
 ## Flutter web [ぷ](https://ShivaShirsath.github.io/flutter-web)
