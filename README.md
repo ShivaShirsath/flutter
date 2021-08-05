@@ -15,7 +15,7 @@
 ### Windows
 + **Install**
   Open cmd / camandLine 
-  ```cmd
+  ```bash
   cd C:\src
   git clone https://github.com/flutter/flutter.git -b stable
   ```
@@ -33,12 +33,12 @@
 + **Enable desktop support**
   - At the command line, perform the following command to enable Win32 desktop support:
 
-    ```cmd
+    ```bash
     flutter config --enable-windows-desktop
     ```
   - For Windows UWP desktop support perform the following commands to switch to the dev channel, upgrade Flutter, and enable UWP.
 
-    ```cmd
+    ```bash
     flutter channel dev
     flutter upgrade
     flutter config --enable-windows-uwp-desktop
@@ -47,7 +47,7 @@
 ### macOS
 + **Install**
   Open Terminal
-  ```shell
+  ```bash
   git clone https://github.com/flutter/flutter.git -b stable
   ```
   
@@ -65,6 +65,12 @@
   export PATH="$PATH:[PATH_OF_FLUTTER_GIT_DIRECTORY]/bin"
   ```
   Run `source $HOME/.<rc file>` to refresh the current window, or open a new terminal window to automatically source the file.
+  
++ Enable desktop support
+  At the command line, perform the following command to enable desktop support
+  ```bash
+  flutter config --enable-macos-desktop
+  ```
   
 ### Linux
 + **Install**
