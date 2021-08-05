@@ -30,11 +30,19 @@
   You have to close and reopen any existing console windows for these changes to take effect.
   
 + **Enable desktop support**
-  At the command line, perform the following command to enable Win32 desktop support:
+  - At the command line, perform the following command to enable Win32 desktop support:
 
-```cmd
- flutter config --enable-windows-desktop
- ```
+    ```cmd
+    flutter config --enable-windows-desktop
+    ```
+  - For Windows UWP desktop support perform the following commands to switch to the dev channel, upgrade Flutter, and enable UWP.
+
+    ```cmd
+    flutter channel dev
+    flutter upgrade
+    flutter config --enable-windows-uwp-desktop
+    ```
+    
 ## Flutter web [ぷ](https://ShivaShirsath.github.io/flutter-web)
 A new Flutter project.
 
