@@ -54,7 +54,7 @@ A new Flutter project.
 
 ### Create Project
 ```bash
-flutter create --org=`PACKAGE_NAME` --android-language=`ANDROID_LANGUAGE` --ios-language=`IOS_LANGUAGE ` `PROJECT_NAME` --no-overwrite/--overwrite
+flutter create --org=`PACKAGE_NAME` --android-language=`ANDROID_LANGUAGE` --ios-language=`IOS_LANGUAGE ` `PROJECT_NAME` -`MODE`overwrite # yes = "-", no = "-no-"
 ```
 Windows Flutter Desktop App Support
 flutter create --platforms=windows .
