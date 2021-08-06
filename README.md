@@ -56,7 +56,17 @@ A new Flutter project.
 ```bash
 flutter create --org=`PACKAGE_NAME` --android-language=`ANDROID_LANGUAGE` --ios-language=`IOS_LANGUAGE ` `PROJECT_NAME` --no-overwrite/--overwrite
 ```
+Windows Flutter Desktop App Support
+flutter create --platforms=windows .
 
+MacOS Flutter Desktop App Support
+flutter create --platforms=macos .
+
+Linux Flutter Desktop App Support
+flutter create --platforms=linux .
+
+Flutter Web App Support
+flutter create --platforms=web .
 ### Check Flutter & Dart
 
 ### Check by Doctor
