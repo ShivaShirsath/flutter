@@ -35,6 +35,7 @@
   ```
   
 + **Additional Linux requirements**
+
   For Linux desktop development, you need the following in addition to the Flutter SDK:
 
   - Clang
