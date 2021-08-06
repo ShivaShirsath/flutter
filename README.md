@@ -56,6 +56,10 @@ A new Flutter project.
 ```bash
 flutter create 
 ```
+```
+flutter create <output directory>
+
+    <output directory>                 Information
 -h, --help                   Print this usage information.
     --[no-]pub               Whether to run "flutter pub get"
                              after the project has been
@@ -146,8 +150,10 @@ flutter create
                              listing of Flutter code samples
                              that can be created with
                              "--sample".
+                            
 
 Run "flutter help" to see global options.
+```
 ```bash
 --org=`PACKAGE_NAME`# AnyOne eg. com.example
 --android-language=`ANDROID_LANGUAGE`# 
