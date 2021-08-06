@@ -57,16 +57,9 @@ A new Flutter project.
 flutter create --org=`PACKAGE_NAME` --android-language=`ANDROID_LANGUAGE` --ios-language=`IOS_LANGUAGE ` `PROJECT_NAME` -`MODE`overwrite # yes = "-", no = "-no-"
 ```
 Windows Flutter Desktop App Support
-flutter create --platforms=windows .
+flutter create --platforms=`PLATFORM_NAME` // windows, macos, linux, web
 
-MacOS Flutter Desktop App Support
-flutter create --platforms=macos .
-
-Linux Flutter Desktop App Support
-flutter create --platforms=linux .
-
-Flutter Web App Support
-flutter create --platforms=web .
+flutter config --enable-`PLATFORM_NAME` // platform-name= windows-desktop, macos-desktop, linux-desktop, web
 ### Check Flutter & Dart
 
 ### Check by Doctor
