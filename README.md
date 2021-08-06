@@ -53,6 +53,9 @@
 A new Flutter project.
 
 ### Create Project
+```bash
+flutter create --org=`PACKAGE_NAME` --android-language=`ANDROID_LANGUAGE` --ios-language=`IOS_LANGUAGE ` `PROJECT_NAME`
+```
 
 ### Check Flutter & Dart
 
