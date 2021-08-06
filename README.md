@@ -105,13 +105,7 @@ flutter create <output directory>
 
 Run "flutter help" to see global options.                           
 ```
-```bash
---org=`PACKAGE_NAME`# AnyOne eg. com.example
---android-language=`ANDROID_LANGUAGE`# 
---ios-language=`IOS_LANGUAGE `
-`PROJECT_NAME`
--`MODE`overwrite # yes = "-", no = "-no-"
-```
+
 Windows Flutter Desktop App Support
 flutter create --platforms=`PLATFORM_NAME` // windows, macos, linux, web
 
