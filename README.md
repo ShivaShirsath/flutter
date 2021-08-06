@@ -12,37 +12,28 @@
 - [⇱](https://flutter.dev/docs/get-started/install/linux) Chrome OS [⇲](#chromeos)
 - [⇱](https://flutter.dev/docs/get-started/web) Web [⇲](#web)
 
-+ **Open Bash** 
++ **Download** 
   ```bash
   git clone https://github.com/flutter/flutter.git -b stable
   ```
-+ **Update your path**
++ **Install**
   - Set path variable 
   
-### Windows
++ **Enable desktop support**
   
-+ **Enable desktop support**
-  - At the command line, perform the following command to enable Win32 desktop support:
-
-    ```bash
-    flutter config --enable-windows-desktop
-    ```
-  - For Windows UWP desktop support perform the following commands to switch to the dev channel, upgrade Flutter, and enable UWP.
-
-    ```bash
-    flutter channel dev
-    flutter upgrade
-    flutter config --enable-windows-uwp-desktop
-    ```
-    
-### macOS
-+ **Enable desktop support**
-  At the command line, perform the following command to enable desktop support
+  ```bash
+  flutter config --enable-windows-desktop
+  ```
+  ```bash
+  flutter config --enable-windows-uwp-desktop
+  ```
   ```bash
   flutter config --enable-macos-desktop
   ```
+  ```bash
+  flutter config --enable-linux-desktop
+  ```
   
-### Linux
 + **Additional Linux requirements**
   For Linux desktop development, you need the following in addition to the Flutter SDK:
 
@@ -56,13 +47,7 @@
   ```bash
   sudo apt install clang cmake ninja-build pkg-config libgtk-3-dev
   ```
-+ **Enable desktop support**
-  
-  At the command line, perform the following command to enable desktop support
-  ```bash
-  flutter config --enable-linux-desktop
-  ```
-  
+
 ## Flutter web [ぷ](https://ShivaShirsath.github.io/flutter-web)
 A new Flutter project.
 
