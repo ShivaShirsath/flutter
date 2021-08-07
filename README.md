@@ -113,22 +113,39 @@ Run "flutter help" to see global options.
 ```bash
 flutter config [arguments]
 -h                                          Print this usage information.
+
 --help                                      Print this usage information.
+
 --[no-]analytics                            Enable or disable reporting anonymously tool usage statistics and crash reports.
+
 --clear-ios-signing-cert                    Clear the saved development certificate choice used to sign apps for iOS device deployment.
+
 --android-sdk                               The Android SDK directory.
+
 --android-studio-dir                        The Android Studio install directory.
+
 --build-dir=<out/>                          The relative path to override a projects build directory.
+
 --[no-]enable-web                           Enable or disable Flutter for web. This setting will take effect on the master, dev, beta, and stable channels.
+
 --[no-]enable-linux-desktop                 Enable or disable beta-quality support for desktop on Linux. This setting will take effect on the master, dev, beta, and stable channels. Newer beta versions are available on the beta channel.
+
 --[no-]enable-macos-desktop                 Enable or disable beta-quality support for desktop on macOS. This setting will take effect on the master, dev, beta, and stable channels. Newer beta versions are available on the beta channel.
+
 --[no-]enable-windows-desktop               Enable or disable beta-quality support for desktop on Windows. This setting will take effect on the master, dev, beta, and stable channels. Newer beta versions are available on the beta channel.
+
 --[no-]enable-windows-uwp-desktop           Enable or disable Flutter for Windows UWP. This setting will take effect on the master and dev channels.
+
 --[no-]single-widget-reload-optimization    Enable or disable Hot reload optimization for changes to class body of a single widget. This setting will take effect on the master, dev, and beta channels.
+
 --[no-]enable-android                       Enable or disable Flutter for Android. This setting will take effect on the master, dev, beta, and stable channels.
+
 --[no-]enable-ios                           Enable or disable Flutter for iOS. This setting will take effect on the master, dev, beta, and stable channels.
+
 --[no-]enable-fuchsia                       Enable or disable Flutter for Fuchsia. This setting will take effect on the master channel.
+
 --[no-]enable-custom-devices                Enable or disable Early support for custom device types. This setting will take effect on the master and dev channels.
+
 --clear-features                            Remove all configured features and restore them to the default values.
 
 Run "flutter help" to see global options.
