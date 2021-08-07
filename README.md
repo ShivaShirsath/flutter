@@ -194,6 +194,25 @@ Run "flutter help" to see global options.
   ### [ChromeOS](https://flutter.dev/docs/get-started/install/chromeos)
 
   ### Web
++ **Create**
+  ```bash
+  flutter create `web_app_name` --platforms linux
+  ```
++ **Configure**
+  ```bash
+  flutter config --enable-web
+  ```
++ **Run**
+  ```bash
+  cd `web_app_name`
+  ```
+  ```bash
+  flutter run # Default Chrome
+  ```
+  ```bash
+  flutter run -d web-server --web-port 8080
+  # Web Server > "http://localhost:8080"
+  ```
   
   
 
