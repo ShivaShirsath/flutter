@@ -209,7 +209,7 @@ Run "flutter help" to see global options.
   ```bash
   flutter run # Default Chrome
   ```
-  ```bash
+  ```json
   flutter run -d web-server --web-port 8080
   # Web Server > "http://localhost:8080"
   ```
