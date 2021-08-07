@@ -19,21 +19,6 @@
 + **Install**
   - Set path variable 
   
-+ **Enable desktop support**
-  
-  ```bash
-  flutter config --enable-windows-desktop
-  ```
-  ```bash
-  flutter config --enable-windows-uwp-desktop
-  ```
-  ```bash
-  flutter config --enable-macos-desktop
-  ```
-  ```bash
-  flutter config --enable-linux-desktop
-  ```
-  
 + **Additional Linux requirements**
 
   For Linux desktop development, you need the following in addition to the Flutter SDK:
