@@ -113,6 +113,7 @@ Run "flutter help" to see global options.
 ### Configure Project
 ```bash
 flutter config
+```
 ```bash
 flutter config [arguments]
 
