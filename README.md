@@ -9,7 +9,7 @@
 - [⇱](https://flutter.dev/docs/get-started/install/windows) Windows [⇲](#windows)
 - [⇱](https://flutter.dev/docs/get-started/install/macos) macOS [⇲](#macos)
 - [⇱](https://flutter.dev/docs/get-started/install/linux) Linux [⇲](#linux)
-- [⇱](https://flutter.dev/docs/get-started/install/linux) Chrome OS [⇲](#chromeos)
+- [⇱](https://flutter.dev/docs/get-started/install/chromeos) Chrome OS [⇲](#chromeos)
 - [⇱](https://flutter.dev/docs/get-started/web) Web [⇲](#web)
 
 + **Download** 
@@ -191,6 +191,9 @@ Run "flutter help" to see global options.
   cd `linux_software_name`
   flutter run
   ```
+  ### [ChromeOS](https://flutter.dev/docs/get-started/install/chromeos)
+  ### Web
+  
   
 
 
