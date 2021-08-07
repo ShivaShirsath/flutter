@@ -95,7 +95,7 @@ flutter create <output directory>
 
 --list-samples=<path>    Specifies a JSON output file for a listing of Flutter code samples that can be created with "--sample".
 
-Run "flutter help" to see global options.                           
+Run “flutter help” to see global options.                           
 ```
 ### Configure Project
 ```bash
