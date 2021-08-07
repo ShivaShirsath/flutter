@@ -13,6 +13,8 @@
 - [⇱](https://flutter.dev/docs/get-started/web) Web [⇲](#web)
 
 + **Download** 
+
+  [git](https://github.com/flutter)
   ```bash
   git clone https://github.com/flutter/flutter.git -b stable
   ```
