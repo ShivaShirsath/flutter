@@ -43,7 +43,7 @@ A new Flutter project.
 ```bash
 flutter create 
 ```
-```
+```json
 flutter create <output directory>
 
     <output directory>                [ Information ]
