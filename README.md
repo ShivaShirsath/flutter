@@ -14,7 +14,7 @@
 
 + **Download** 
 
-  github [flutter](https://github.com/flutter) [reporitory](https://github.com/flutter/flutter)
+  github [flutter](https://github.com/flutter)-[reporitory](https://github.com/flutter/flutter)
   ```bash
   git clone https://github.com/flutter/flutter.git -b stable
   ```
