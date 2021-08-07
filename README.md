@@ -196,7 +196,7 @@ Run "flutter help" to see global options.
   ### Web
 + **Create**
   ```bash
-  flutter create `web_app_name` --platforms linux
+  flutter create `web_app_name` --platforms web
   ```
 + **Configure**
   ```bash
