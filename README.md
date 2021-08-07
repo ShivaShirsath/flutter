@@ -115,12 +115,9 @@ flutter config [arguments]
     --android-studio-dir                        The Android Studio install directory.
     --build-dir=<out/>                          The relative path to override a projects build directory.
     --[no-]enable-web                           Enable or disable Flutter for web. This setting will take effect on the master, dev, beta, and stable channels.
-    --[no-]enable-linux-desktop                 Enable or disable beta-quality support for desktop on Linux. This setting will take effect on the master, dev, beta, and stable channels. Newer beta versions are
-                                                available on the beta channel.
-    --[no-]enable-macos-desktop                 Enable or disable beta-quality support for desktop on macOS. This setting will take effect on the master, dev, beta, and stable channels. Newer beta versions are
-                                                available on the beta channel.
-    --[no-]enable-windows-desktop               Enable or disable beta-quality support for desktop on Windows. This setting will take effect on the master, dev, beta, and stable channels. Newer beta versions are
-                                                available on the beta channel.
+    --[no-]enable-linux-desktop                 Enable or disable beta-quality support for desktop on Linux. This setting will take effect on the master, dev, beta, and stable channels. Newer beta versions are available on the beta channel.
+    --[no-]enable-macos-desktop                 Enable or disable beta-quality support for desktop on macOS. This setting will take effect on the master, dev, beta, and stable channels. Newer beta versions are available on the beta channel.
+    --[no-]enable-windows-desktop               Enable or disable beta-quality support for desktop on Windows. This setting will take effect on the master, dev, beta, and stable channels. Newer beta versions are available on the beta channel.
     --[no-]enable-windows-uwp-desktop           Enable or disable Flutter for Windows UWP. This setting will take effect on the master and dev channels.
     --[no-]single-widget-reload-optimization    Enable or disable Hot reload optimization for changes to class body of a single widget. This setting will take effect on the master, dev, and beta channels.
     --[no-]enable-android                       Enable or disable Flutter for Android. This setting will take effect on the master, dev, beta, and stable channels.
