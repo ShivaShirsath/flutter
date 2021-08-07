@@ -59,7 +59,8 @@ flutter create
 ```
 flutter create <output directory>
 
-    <output directory>                 Information
+    <output directory>                [ Information ]
+    
 -h                       Print this usage information.
 --help                   Print this usage information.
 
@@ -111,7 +112,12 @@ Run "flutter help" to see global options.
 ```
 ### Configure Project
 ```bash
+flutter config
+```bash
 flutter config [arguments]
+
+     [ arguments ]                                        [ Information ]
+     
 -h                                          Print this usage information.
 
 --help                                      Print this usage information.
