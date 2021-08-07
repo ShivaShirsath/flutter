@@ -213,6 +213,6 @@ Run "flutter help" to see global options.
   flutter run -d web-server --web-port 8080 
   # Use below cammand to run on localhost
   ```
-  [`flutter run -d web-server --web-port 8080`](http://localhost:8080)
+  [Web Server](http://localhost:8080)
   
 
