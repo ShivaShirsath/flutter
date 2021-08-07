@@ -46,7 +46,7 @@ flutter create
 ```json
 flutter create <output directory>
 
-    <output directory>                [ Information ]
+    <output directory>                < Information >
     
 -h                       Print this usage information.
 --help                   Print this usage information.
@@ -101,10 +101,10 @@ Run “flutter help” to see global options.
 ```bash
 flutter config
 ```
-```bash
+```json
 flutter config [arguments]
 
-     [ arguments ]                                        [ Information ]
+     < arguments >                                      < Information >
      
 -h                                          Print this usage information.
 
