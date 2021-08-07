@@ -163,10 +163,32 @@ Run "flutter help" to see global options.
   cd `windows_software_name`
   flutter run 
   ```
-
-
-
-
-
+### macOS
++ **Create**
+  ```bash
+  flutter create `macos_software_name` --platforms macos
+  ```
++ **Configure**
+  ```bash
+  flutter config --enable-macos-desktop
+  ```
++ **Run**
+  ```bash
+  flutter run
+  ```
+### Linux
++ **Create**
+  ```bash
+  flutter create `linux_software_name` --platforms linux
+  ```
++ **Configure**
+  ```bash
+  flutter config --enable-linux-desktop
+  ```
++ **Run**
+  ```bash
+  flutter run
+  ```
+  
 
 
