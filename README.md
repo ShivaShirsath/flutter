@@ -151,13 +151,13 @@ Run "flutter help" to see global options.
   ```
 + **Configure**
   - *Windows*
-  ```bash
-  flutter config --enable-windows-desktop
-  ```
+    ```bash
+    flutter config --enable-windows-desktop
+    ```
   - *Windows UWP*
-  ```bash
-  flutter config --enable-windows-uwp-desktop
-  ```
+    ```bash
+    flutter config --enable-windows-uwp-desktop
+    ```
 + **Run**
   ```bash
   cd `windows_software_name`
