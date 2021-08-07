@@ -174,6 +174,7 @@ Run "flutter help" to see global options.
   ```
 + **Run**
   ```bash
+  cd `macos_software_name`
   flutter run
   ```
 ### Linux
@@ -187,6 +188,7 @@ Run "flutter help" to see global options.
   ```
 + **Run**
   ```bash
+  cd `linux_software_name`
   flutter run
   ```
   
