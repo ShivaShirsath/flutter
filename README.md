@@ -144,3 +144,29 @@ flutter config [arguments]
 
 Run "flutter help" to see global options.
 ```
+### Windows
++ **Create**
+  ```bash
+  flutter create `windows_software_name` --platforms windows
+  ```
++ **Configure**
+  - *Windows*
+  ```bash
+  flutter config --enable-windows-desktop
+  ```
+  - *Windows UWP*
+  ```bash
+  flutter config --enable-windows-uwp-desktop
+  ```
++ **Run**
+  ```bash
+  cd `windows_software_name`
+  flutter run 
+  ```
+
+
+
+
+
+
+
