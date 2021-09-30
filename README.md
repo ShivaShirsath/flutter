@@ -147,7 +147,7 @@ Run "flutter help" to see global options.
 ### Single Platform
 + **Create**
   ```json
-  flutter create [ project name ] --platforms [ platform ]
+  flutter create [ project_name ] --platforms [ platform ]
   ```
 + **Configure**
   ```json
@@ -155,7 +155,7 @@ Run "flutter help" to see global options.
   ```
 + **Run**
   ```bash
-  cd [ project name ]
+  cd [ project_name ]
   ```
   ```bash
   flutter run # Default Chrome
