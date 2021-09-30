@@ -154,7 +154,7 @@ Run "flutter help" to see global options.
   flutter config --enable-[ platform ]-desktop
   ```
 + **Run**
-  ```bash
+  ```json
   cd [ project_name ]
   ```
   ```bash
