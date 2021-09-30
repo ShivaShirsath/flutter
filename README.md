@@ -68,11 +68,11 @@ flutter create <output directory>
     
 -i                       The language to use for iOS-specific code, either ObjectiveC (legacy) or Swift (recommended).
 --ios-language           The language to use for iOS-specific code, either ObjectiveC (legacy) or Swift (recommended).
-                         [objc, swift (default)]
+                         [ objc, swift ] ( default is swift )
                              
 -a                       The language to use for Android-specific code, either Java (legacy) or Kotlin (recommended).
 --android-language       The language to use for Android-specific code, either Java (legacy) or Kotlin (recommended).
-                         [java, kotlin (default)]
+                         [ java , kotlin ]( default is kotlin )
                              
 --platforms              The platforms supported by this project. Platform folders (e.g. android/) will be generated in the target project. This argument only works when "--template" is set to app or plugin. When adding platforms to a plugin project, the pubspec.yaml will be updated with the requested platform. Adding desktop platforms requires the corresponding desktop config setting to be enabled.
                          [ios (default), android (default), windows (default), linux (default), macos (default), web (default)]
@@ -147,15 +147,15 @@ Run "flutter help" to see global options.
 ### Single Platform
 + **Create**
   ```json
-  flutter create [ project_name ] --platforms [ platform ]
+  flutter create [project_name] --platforms [platform]
   ```
 + **Configure**
   ```json
-  flutter config --enable-[ platform ]-desktop
+  flutter config --enable-[platform]-desktop
   ```
 + **Run**
   ```json
-  cd [ project_name ]
+  cd [project_name]
   ```
   ```bash
   flutter run # Default Chrome
