@@ -75,7 +75,7 @@ flutter create <output directory>
                          [ java , kotlin ]( default is kotlin )
                              
 --platforms              The platforms supported by this project. Platform folders (e.g. android/) will be generated in the target project. This argument only works when "--template" is set to app or plugin. When adding platforms to a plugin project, the pubspec.yaml will be updated with the requested platform. Adding desktop platforms requires the corresponding desktop config setting to be enabled.
-                         [ios (default), android (default), windows (default), linux (default), macos (default), web (default)]
+                         [ios , android , windows , linux , macos , web ] ( default is all ]
                              
 -t                       Specify the type of project to create.
 --template=<type>        Specify the type of project to create.
