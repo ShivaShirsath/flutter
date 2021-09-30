@@ -144,67 +144,18 @@ flutter config [arguments]
 
 Run "flutter help" to see global options.
 ```
-### Windows
+### Single Platform
 + **Create**
-  ```bash
-  flutter create `windows_software_name` --platforms windows
+  ```json
+  flutter create [ project name ] --platforms [ platform ]
   ```
 + **Configure**
-  - *Windows*
-    ```bash
-    flutter config --enable-windows-desktop
-    ```
-  - *Windows UWP*
-    ```bash
-    flutter config --enable-windows-uwp-desktop
-    ```
-+ **Run**
-  ```bash
-  cd `windows_software_name`
-  flutter run 
-  ```
-### macOS
-+ **Create**
-  ```bash
-  flutter create `macos_software_name` --platforms macos
-  ```
-+ **Configure**
-  ```bash
-  flutter config --enable-macos-desktop
+  ```json
+  flutter config --enable-[ platform ]-desktop
   ```
 + **Run**
   ```bash
-  cd `macos_software_name`
-  flutter run
-  ```
-### Linux
-+ **Create**
-  ```bash
-  flutter create `linux_software_name` --platforms linux
-  ```
-+ **Configure**
-  ```bash
-  flutter config --enable-linux-desktop
-  ```
-+ **Run**
-  ```bash
-  cd `linux_software_name`
-  flutter run
-  ```
-  ### [ChromeOS](https://flutter.dev/docs/get-started/install/chromeos)
-
-  ### Web
-+ **Create**
-  ```bash
-  flutter create `web_app_name` --platforms web
-  ```
-+ **Configure**
-  ```bash
-  flutter config --enable-web
-  ```
-+ **Run**
-  ```bash
-  cd `web_app_name`
+  cd [ project name ]
   ```
   ```bash
   flutter run # Default Chrome
