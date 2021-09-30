@@ -151,7 +151,7 @@ Run "flutter help" to see global options.
   ```
 + **Configure**
   ```json
-  flutter config --enable-[platform]-desktop
+  flutter config --enable-[platform] # eg. android , ios , web , 
   ```
 + **Run**
   ```json
