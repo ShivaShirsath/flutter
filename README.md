@@ -22,14 +22,6 @@
   - Set path variable 
   
 + **Additional Linux requirements**
-
-  For Linux desktop development, you need the following in addition to the Flutter SDK:
-
-  - Clang
-  - CMake
-  - GTK development headers
-  - Ninja build
-  - pkg-config
   
   Run the following command
   ```bash
