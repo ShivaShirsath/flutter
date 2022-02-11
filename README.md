@@ -29,7 +29,6 @@
   ```
 
 ## Flutter web [ぷ](https://ShivaShirsath.github.io/flutter-web)
-A new Flutter project.
 
 ### Create Project
 ```bash
@@ -41,21 +40,21 @@ flutter config
 ```
 ### Single Platform
 + **Create**
-  ```json
+  ```bash
   flutter create [project_name] --platforms [platform]
   ```
 + **Configure**
-  ```json
+  ```bash
   flutter config --enable-[platform]
   # eg. platforms are [ android , ios , web , linux-desktop , windows-desktop , macos-desktop ]
   ```
 + **Run**
-  ```json
+  ```bash
   cd [project_name]
   ```
   ```bash
   flutter run
   ```
-  ```json
+  ```bash
   flutter run -d web-server --web-port 8080 # [Web-Server] : http://localhost:8080
   ```
